@@ -1,10 +1,9 @@
 ---
-title: Queue
-description: Queue에 대해서 자세히 알아보자.
-author: tinubee
+title: 큐(Queue) 란?
+description: 큐(Queue)에 대해서 자세히 알아보자.
+#author: tinubee
 date: 2024-05-14 18:30:00 +0800
 categories: [Study, C#]
-tags: [C#, Winform]
 pin: true
 math: true
 mermaid: true
