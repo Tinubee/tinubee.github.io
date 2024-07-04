@@ -181,7 +181,7 @@ Build succeeded.
 
 ---
 
-  # ✅ program.cs에서 아래와 같이 기본기 연습해보기.
+# ✅ program.cs에서 아래와 같이 기본기 연습해보기.
 
 ### Product 생성 및 변화 저장
 
