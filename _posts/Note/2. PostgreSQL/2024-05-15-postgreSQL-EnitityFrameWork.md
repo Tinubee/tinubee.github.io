@@ -143,7 +143,7 @@ namespace ContosoPizza.Data
 ```
 
 ### 5. 패키지 관리자 콘설 켜기
-- 도구 -> Neget패키지관리 -> 패키지 관리자 콘설 클릭
+- 도구 -> Neget패키지관리 -> 패키지 관리자 콘솔 클릭
 
 ### 6. Add-Migration InitialCreate 입력(Add-Migration 뒤는 임의 변경 가능)
 - 제대로 완료 되면 아래와 같이 나오고 Migrations 폴더가 생김 

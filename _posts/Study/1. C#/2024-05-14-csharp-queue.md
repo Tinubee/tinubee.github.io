@@ -7,17 +7,12 @@ categories: [Study, C#]
 pin: true
 math: true
 mermaid: true
-# image:
-#   path: /commons/devices-mockup.png
-#   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
-#   alt: Responsive rendering of Chirpy theme on multiple devices.
+image:
+    path: /assets/img/queue.jpg
 ---
 ## **큐(Queue) 란 ?**
 
 <!-- ![Desktop View](https://blog.kakaocdn.net/dn/uMiOJ/btreKJ5Os5T/AtMSDo5vWJATJQWYxLIKSk/img.png) -->
-
-![Desktop View](https://github.com/Tinubee/TPA/assets/53461370/cee3f74f-f84c-4739-a585-81fa82f1710b)
-
 - Queue<T>는 FIFO(First-In, First-Out) 컬렉션을 구현합니다. 
 - 처음 삽입된 요소가 가장 먼저 제거되는 방식입니다. 
 - Queue는 기본적으로 데이터가 선형으로 배치된 방식이 아니라 순환 버퍼(Circular Buffer)를 사용하여 효율적으로 관리됩니다.
