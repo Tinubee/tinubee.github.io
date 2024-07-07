@@ -8,7 +8,7 @@ pin: true
 math: true
 mermaid: true
 image:
-    path: /assets/img/queue.jpg
+    path: https://github.com/Tinubee/tinubee.github.io/assets/53461370/1f699c8f-14f0-4546-af4e-b7f15c9c4290
 ---
 ## **큐(Queue) 란 ?**
 

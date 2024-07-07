@@ -7,8 +7,8 @@ tags: [postgresql]
 pin: true
 math: true
 mermaid: true
-#image:
-#   path: /commons/devices-mockup.png
+image:
+   path: https://github.com/Tinubee/tinubee.github.io/assets/53461370/2e3e2d1a-3366-4655-88bf-b5e8ab398185
 #   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---

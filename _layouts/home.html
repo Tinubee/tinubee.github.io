@@ -59,11 +59,11 @@ refactor: true
             {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
           {% endif %}
 
-          <div class="col-md-4">
+          <div class="col-md-5">
             <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
           </div>
 
-          {% assign card_body_col = '8' %}
+          {% assign card_body_col = '7' %}
         {% endif %}
 
         <div class="col-md-{{ card_body_col }}">
