@@ -181,9 +181,9 @@ Build succeeded.
 
 ---
 
-# ✅ program.cs에서 아래와 같이 기본기 연습해보기.
+# 9. program.cs에서 아래와 같이 기본기 연습해보기.
 
-### Product 생성 및 변화 저장
+### 9-1. Product 생성 및 변화 저장
 
 ```cs
 ContosoPizzaContext context = new ContosoPizzaContext();
@@ -206,7 +206,7 @@ context.Add(deluxeMeat);
 context.SaveChanges();
 ```
 
-### product 검색해서 console에 뿌려보기(fluent API를 사용해서 검색하는 방법, Linq 이용은 다음에)
+### 9-2. product 검색해서 console에 뿌려보기(fluent API를 사용해서 검색하는 방법, Linq 이용은 다음에)
 
 ```cs
 ContosoPizzaContext context = new ContosoPizzaContext();
@@ -221,7 +221,7 @@ foreach ( var product in products )
 }
 ```
 
-### product 내용 바꾸고 update 해보기(price를 10.99 로 바꾸고 저장)
+### 9-3. product 내용 바꾸고 update 해보기(price를 10.99 로 바꾸고 저장)
 
 ```cs
 ContosoPizzaContext context = new ContosoPizzaContext();
@@ -245,7 +245,7 @@ foreach ( var product in products )
 }
 ```
 
-### product 내용을 삭제하고 update 해보기
+### 9-4. product 내용을 삭제하고 update 해보기
 
 ```cs
 ContosoPizzaContext context = new ContosoPizzaContext();
@@ -274,10 +274,12 @@ foreach ( var product in products )
 
 # 10. 부록
 [MS에서 제공하는 참조 동영상](https://www.youtube.com/watch?v=SryQxUeChMc&list=PLdo4fOcmZ0oX7uTkjYwvCJDG2qhcSzwZ6)
-(Getting Started with Entity Framework Core [1 of 5] | Entity Framework Core for Beginners)
+{% include embed/youtube.html id='SryQxUeChMc' %}
 
+---
 
-> **디자인 패키지 ~~ 발생 시 해결방안** 
+> 디자인 패키지 ~~ 발생 시 해결방안.
+{: .prompt-warning }
 > - 구성관리자에서 디버깅모드를 remote가 아니라 `local`로 두고 해보기.
 > - 해당 컨텍스트 내에 `OnConfiguring도 추가`해서 따로 연결시켜주기. host만 대상 PC IP 입력.
 > - 명령어에 `Add-Migration Initial블라블라 -OutputDir "OutputDir" -Context "logtable"` 입력.
